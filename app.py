@@ -4,7 +4,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import joblib
 from link_prediction.utils.classes import Design
-from link_prediction.models import TextSimilarityNeighborsClassifier
+from link_prediction.models import PageContainsLabelClassifier
 from utils import get_data_points
 
 # Set up the Flask application
@@ -12,8 +12,8 @@ app = Flask(__name__)
 CORS(app)
 
 # Load the link prediction model
-clf: TextSimilarityNeighborsClassifier = joblib.load(
-    "models/TextSimilarityNeighborsClassifier.joblib"
+clf: PageContainsLabelClassifier = joblib.load(
+    "models/PageContainsLabelClassifier.joblib"
 )
 
 # Define the route for the default URL, which returns the version number
