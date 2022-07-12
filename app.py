@@ -4,7 +4,9 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import joblib
 from link_prediction.utils.classes import Design
-from link_prediction.models import PageContainsLabelClassifier
+from link_prediction.models.heuristics.page_contains_label import (
+    PageContainsLabelClassifier,
+)
 from utils import get_data_points
 
 # Set up the Flask application
