@@ -7,3 +7,4 @@ flask
 flask-cors
 link-prediction
 black
+gunicorn
