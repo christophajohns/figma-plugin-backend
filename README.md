@@ -3,8 +3,8 @@
 This repository contains code for a Python server that functions as backend for the 'Suggested Links' Figma plugin.
 It receives a list of hierarchical screen data from the plugin's frontend and returns a list of suggested links based on the used link prediction model.
 
-This application is part of a master thesis project titled "Predicting Links for Mobile GUI Prototyping" by [Christoph A. Johns](mailto:christophjohns@aalto.fi?subject=[GitHub]%20Suggested%20Links%Figma%Plugin) at German Research Center for Artificial Intelligence (DFKI) and Aalto University.
-The project is supervised by Michael Barz and Prof. Antti Oulasvirta.
+This application is part of a publication titled "Interactive Link Prediction as a Downstream Task for Foundational GUI Understanding Models" by [Christoph A. Johns](mailto:christophjohns@aalto.fi?subject=[GitHub]%20Suggested%20Links%Figma%Plugin) at Aarhus University.
+The project was supervised by Michael Barz at German Research Center for Artificial Intelligence (DFKI).
 
 ## Development
 
